@@ -1,0 +1,165 @@
+body {
+    color: #313131; /* Dark grey */
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: #4d73dd;
+    color: white;
+    font-size: 30px;
+  }
+  
+
+  h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  button{
+    font-size: 18px;
+    font-style: bold;
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 28px;
+    margin: auto;
+      }
+
+
+  h2{font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    color: #4d73dd;
+      }
+
+  h3{font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    color: #4d73dd;
+  }
+
+  h4{font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  h6 {
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  margin: 0px;
+  margin-left: 250px;
+  margin-right: 250px;
+  }
+  
+  p {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 35px;
+    font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  li {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300px;
+    letter-spacing: 0.5px;
+    line-height: 35px;
+    font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    }
+
+  ul{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    color: #4d73dd;
+        }
+
+
+    #sells{
+        box-sizing: content-box;  
+        width: 480px;
+        height: px;
+        padding: 30px;  
+        border: 3px solid black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+          }
+    
+     #info{
+            box-sizing: content-box;  
+            width:480px;
+            height: px;
+            padding: 30px;  
+            border: 3px solid black;
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+              }
+
+    #addressbox{
+       box-sizing: content-box;  
+            width: 450px;
+            height: auto;
+            padding: 30px;  
+            border: 3px solid black;
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+                 }
+
+      #discount{
+        box-sizing:content-box;           
+        border: 3px solid black;
+        font-family:'Poppins', sans-serif;
+        font-size: 18px; 
+        float: right;       
+
+      }
+
+      .laptop{
+        width: 600px;
+        height: 300px;
+        background-image: url(images/laptop.jpg);
+          background-size: 100%;
+          background-position: center;
+          margin-left: auto;
+          margin-right: auto;
+          opacity: 100px;
+          }
+
+img{
+  float: right;
+  top: 100px;
+  right: 0px;
+  }
+
+.aside{
+  float: right;
+}
+
+       
+    
+
+           
