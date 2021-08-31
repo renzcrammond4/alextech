@@ -1,53 +1,66 @@
 body {
-    color: #313131; /* Dark grey */
-    background-color: rgb(211, 211, 211);
-    padding: 10px;
-    margin-left: 80px;
-    margin-right: 80px;
-  }
+  color: #313131; /* Dark grey */
+  background-color: rgb(211, 211, 211);
+  padding: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
 
-  .header {
-    padding: 30px;
-    text-align: center;
-    background: #4d73dd;
-    color: white;
-    font-size: 30px;
-  }
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #4d73dd;
+  color: white;
+  font-size: 30px;
+}
 
-  h1{
-    font-size: 50px;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-    line-height: 1.5;
-  }
+/* New class */
+.header--brand {
+  display: flex;
+  justify-content: space-between;
+}
 
-  h2{font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-    line-height: 1.5;
-    margin-left: auto;
-    margin-right: auto;
-    color: #4d73dd;
-      }
+.header--brand img {
+  display: inline-block;
+  flex-shrink: 0;
+}
 
-  h3{font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    line-height: 1.5;
-    color: white
-  }
+h1 {
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  line-height: 1.5;
+}
 
-  h4
-  {font-size: 24px;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-    line-height: 1.5;
-    margin-left: auto;
-    margin-right: auto;
-    color: black
-      }
-      
-  button{
+h2 {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+  color: #4d73dd;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+}
+
+h4 {
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+
+button {
   background-color: rgb(211, 211, 211);
   font-family: 'Poppins', sans-serif;
   color: black;
@@ -57,119 +70,116 @@ body {
   display: inline-block;
   font-size: 16px;
   font-style: bold;
-      }
+}
 
-  button:hover {background-color: #8b8b8b}
+button:hover {
+  background-color: #8b8b8b;
+}
 
-  button:active {
-        background-color: rgb(211, 211, 211);
-        box-shadow: 0.5px #666;
-        transform: translateY(4px);
-      }
+button:active {
+  background-color: rgb(211, 211, 211);
+  box-shadow: 0.5px #666;
+  transform: translateY(4px);
+}
 
+p {
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 35px;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  p {
-    color: #333;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    line-height: 35px;
-    font-style: normal;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  
-  li {
-    color: #333;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 300px;
-    letter-spacing: 0.5px;
-    line-height: 35px;
-    font-style: normal;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.5;
-    }
+li {
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 300px;
+  letter-spacing: 0.5px;
+  line-height: 35px;
+  font-style: normal;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
 
-  ul{
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    line-height: 1.5;
-    color: white;  
-        }
+ul {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+}
 
+#sells {
+  box-sizing: content-box;
+  width: 480px;
+  height: px;
+  padding: 30px;
+  border: 3px solid black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
 
-    #sells{
-        box-sizing: content-box;  
-        width: 480px;
-        height: px;
-        padding: 30px;  
-        border: 3px solid black;
-        font-family: 'Poppins', sans-serif;
-        font-size: 18px;
-          }
-    
-     #info{
-            box-sizing: content-box;  
-            width:480px;
-            height: px;
-            padding: 30px;  
-            border: 3px solid black;
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
-              }
+#info {
+  box-sizing: content-box;
+  width: 480px;
+  height: px;
+  padding: 30px;
+  border: 3px solid black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
 
-    #addressbox{
-       box-sizing: content-box;  
-            width: 450px;
-            height: auto;
-            padding: 30px;  
-            border: 3px solid black;
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
-                 }
+#addressbox {
+  box-sizing: content-box;
+  width: 450px;
+  height: auto;
+  padding: 30px;
+  border: 3px solid black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
 
-      #discount{
-        box-sizing:content-box;
-        background-color: #4d73dd;
-        color: white;  
-        border: 3px solid black;
-        font-family:'Poppins', sans-serif;
-        font-size: 18px; 
-        float: right;
-        
+#discount {
+  box-sizing: content-box;
+  background-color: #4d73dd;
+  color: white;
+  border: 3px solid black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  float: right;
+}
 
-      }
+.laptop {
+  width: 600px;
+  height: 300px;
+  background-image: url(images/laptop.jpg);
+  background-size: 100%;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 100px;
+}
 
-      .laptop{
-        width: 600px;
-        height: 300px;
-        background-image: url(images/laptop.jpg);
-          background-size: 100%;
-          background-position: center;
-          margin-left: auto;
-          margin-right: auto;
-          opacity: 100px;
-          }
-
-
-          
-img{
+img {
   background-position: top;
   float: right;
   top: -100px;
   right: 0px;
-  }
-
-.aside{
-  float: right;
 }
 
-       
-    
+.aside {
+  float: right;
+}
+/* New class */
 
-           
+#main-content {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
