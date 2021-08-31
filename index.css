@@ -21,6 +21,32 @@ body {
     line-height: 1.5;
   }
 
+  h2{font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    color: #4d73dd;
+      }
+
+  h3{font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    color: white
+  }
+
+  h4
+  {font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    color: black
+      }
+      
   button{
   background-color: rgb(211, 211, 211);
   font-family: 'Poppins', sans-serif;
@@ -41,39 +67,7 @@ body {
         transform: translateY(4px);
       }
 
-        h2{font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-    line-height: 1.5;
-    margin-left: auto;
-    margin-right: auto;
-    color: #4d73dd;
-      }
 
-  h3{font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    line-height: 1.5;
-    color: white
-  }
-
-  h4{font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    line-height: 1.5;
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-  
-  h6 {
-  font-size: 25px;
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.5;
-  margin: 0px;
-  margin-left: 250px;
-  margin-right: 250px;
-  }
-  
   p {
     color: #333;
     font-family: 'Poppins', sans-serif;
